@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NATURE PHOTO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <div class="navbar">
+        
+        <a href="file:///C:/Users/DESKTOP/Desktop/nature/index.html">Home</a>
+        <a href="c:\Users\DESKTOP\Desktop\nature\me info\index.meinfo.html">About me</a>
+        <a href="https://apps.apple.com/us/app/google-drive/id507874739">Services</a>
+        <a href="https://dictionary.cambridge.org/dictionary/english/contact">Contact</a>
+        
+        
+    </div>
+    
+    
+    <font size="20px" >
+        <font color="black">
+        
+    </font>
+</font>
+
+    <div class="container">
+        <video autoplay muted loop class="background-video">
+            <source src="c:\Users\DESKTOP\Desktop\nature\210797_small.mp4" type="video/mp4">
+            
+        </video>
+
+        <div class="login-box">
+            <img src="c:\Users\DESKTOP\Desktop\nature\Picture1s.jpg"alt="Left Photo" class="left-photo">
+            <form id="loginForm" onsubmit="return handleSubmit(event);">
+                <h2>LOGING FOR NATURE PHOTO</h2>
+                <div class="input-group">
+                    <label for="username">Your Username</label>
+                    <input type="text" id="username" name="username" required>
+                    <div class="spinner" id="spinner">
+                </div>
+                <div class="input-group">
+                    <label for="password">Strong Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <center>
+                <button type="submit">Submit</button>
+                </center>
+            </form>
+           
+            
+            
+            <img src="c:\Users\DESKTOP\Desktop\nature\Picture3 g.png" alt="Right Photo" class="right-photo">
+        <div class="photo ">
+            <img src="c:\Users\DESKTOP\Desktop\nature\Screenshot 2024-09-23 164217.png" alt="photo" class="photo-tsch" size="50" height="60" width="70" >
+            <img src="c:\Users\DESKTOP\Desktop\nature\Ssahinda 123 - Copy.png" alt="photo" class="photo-sc">
+        </div> 
+       
+        </div>
+    </div>
+    <script>
+        function handleSubmit(event) {
+            event.preventDefault();
+            const spinner = document.getElementById('spinner');
+            spinner.style.display = 'block';
+    
+            // Simulate loading
+            setTimeout(() => {
+                window.location.href = 'https://pixabay.com/images/search/nature/'; // Replace with your link
+            }, 2000);
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
